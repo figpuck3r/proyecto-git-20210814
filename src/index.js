@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import Tarjeta from './Tarjeta';
+import Usuario from './Usuario';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Tarjeta />
+    <Usuario />
   </React.StrictMode>,
   document.getElementById('root')
 );
